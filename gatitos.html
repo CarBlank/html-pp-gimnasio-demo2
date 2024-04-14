@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gatitos</title>
+    <style>
+        a:hover{
+        background-color: rgb(168, 184, 255);
+    }
+    </style>
+</head>
+<body style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+    <header style="text-align: right;">
+        <nav>
+            <a href="" style="margin: 10px; color: rgb(9, 4, 51); ">Abuelillos</a>
+            <a href="" style="margin: 10px; color: rgb(9, 4, 51);">Galaxias</a>
+        </nav>
+    </header>
+    <hr>
+    <!-- es necesario poner siempre width y height o vale con uno -->
+    <picture>
+        <source media="(min-width: 650px)" srcset="./images/image1.jpg">
+        <source media="(min-width: 500px)" srcset="./images/image2.jpg">
+        <img src="./images/image3.jpg" alt="Sky" style="width: 50%;">
+        <!-- el width hace referencia a todas las imagenes? -->
+      </picture>
+    <video width="100%" autoplay muted loop>
+        <source src="./images/video2.mp4" type="video/mp4">
+        <!-- como ponermos link a un video? -->
+        <!-- si usamos formato ogg tenemos que tener el video guardado como ogg? -->
+    </video>
+    <audio controls autoplay>
+        <source src="audio1.mp3" type="audio/mpeg">
+    </audio>
+</body>
+</html>
